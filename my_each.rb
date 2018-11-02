@@ -4,4 +4,5 @@ def my_each(num) # put argument(s) here
   while i<num.size()
     yield(num)
   end
+  num
 end
