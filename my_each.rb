@@ -3,7 +3,7 @@ def my_each(num) # put argument(s) here
   i=0;
   while i<num.size()
     here=num[i];
-    yield(num)
+    yield(here)
     i+=1;
   end
   num
